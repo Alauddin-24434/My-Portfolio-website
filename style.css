@@ -1,5 +1,25 @@
+/* Share style */
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+
+.section-title {
+    color: #181818;
+    text-align: center;
+
+    font-size: 35px;
+
+    font-weight: 700;
+
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 /* Nav related Style */
@@ -113,8 +133,34 @@ nav a {
     color: #FD6E0A;
     text-align: center;
 }
-.svg-{
+
+.svg- {
     width: 24px;
-height: 24px;
-flex-shrink: 0;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+/* Main section start hare */
+
+
+
+/* About section start hare */
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+    margin: 130px 230px;
+}
+
+main{
+    max-width: 1140px;
+}
+.about-info-container{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.about-info{
+    text-align: center;
+    padding: 30px 50px;
 }
